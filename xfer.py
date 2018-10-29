@@ -22,8 +22,6 @@ try:
 except ImportError:
     HAS_PARAMIKO = False
 
-#if not HAS_PARAMIKO:
-#    sys.exit('You need Paramiko')
 
 # xfer libs
 
